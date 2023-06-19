@@ -1,0 +1,8 @@
+-- @block
+Create database SignUp;
+
+-- @block
+create table Users(id int auto_increment primary key,
+Email varchar (255),
+Password varchar (255)
+);
